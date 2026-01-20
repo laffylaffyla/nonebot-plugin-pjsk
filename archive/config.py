@@ -13,12 +13,12 @@ class ConfigModel(BaseModel):
     pjsk_req_timeout: int = 10
     pjsk_assets_prefix: List[Annotated[str, HttpUrl]] = Field(
         [
-            "https://raw.githubusercontent.com/laffylaffyla/sekai-stickers/main/",
+            "https://raw.githubusercontent.com/TheOriginalAyaka/sekai-stickers/main/",
         ],
     )
     pjsk_repo_prefix: List[Annotated[str, HttpUrl]] = Field(
         [
-            "https://raw.githubusercontent.com/laffylaffyla/nonebot_plugin_pjsk/main/",
+            "https://raw.githubusercontent.com/Agnes4m/nonebot_plugin_pjsk/main/",
         ],
     )
 
